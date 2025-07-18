@@ -66,7 +66,7 @@ below contains the list of queries
 
 ## 📌 Key Insights
 - [ ] Highlight 2–3 bullet points of insights here.
-- [ ] Link to ` `.
+- [ ] Link to ` `
 
 ## 🧠 Recommendations
 - Implement tiered shipping policy aligned with order priority.
