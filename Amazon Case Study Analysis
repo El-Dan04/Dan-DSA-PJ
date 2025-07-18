@@ -1,1 +1,27 @@
-# Amazon Case Study Analy
+# 📚 Data Dictionary: Kultra Mega Stores Inventory
+
+| Column Name      | Data Type       | Description                              |
+|------------------|------------------|------------------------------------------|
+| Order ID         | VARCHAR(20)      | Unique order identifier                  |
+| Order Date       | DATE             | Date the order was placed                |
+| Ship Date        | DATE             | Date the order was shipped               |
+| Ship Mode        | VARCHAR(50)      | Shipping method used                     |
+| Customer ID      | VARCHAR(20)      | Unique customer ID                       |
+| Customer Name    | VARCHAR(100)     | Full name of the customer                |
+| Segment          | VARCHAR(30)      | Customer segment                         |
+| Country          | VARCHAR(50)      | Country of the order (mostly Nigeria)    |
+| City             | VARCHAR(50)      | City of delivery                         |
+| State            | VARCHAR(50)      | State of delivery                        |
+| Postal Code      | VARCHAR(20)      | Delivery postal code                     |
+| Region           | VARCHAR(30)      | Region in Nigeria                        |
+| Product ID       | VARCHAR(20)      | Unique product ID                        |
+| Category         | VARCHAR(50)      | Main product category                    |
+| Sub-Category     | VARCHAR(50)      | More specific product type               |
+| Product Name     | VARCHAR(255)     | Full product name                        |
+| Sales            | DECIMAL(10,2)    | Total sale amount                        |
+| Quantity         | INT              | Quantity sold                            |
+| Discount         | DECIMAL(5,2)     | Discount applied                         |
+| Profit           | DECIMAL(10,2)    | Profit earned                            |
+| Shipping Cost    | DECIMAL(10,2)    | Shipping fee                             |
+| Order Priority   | VARCHAR(20)      | Priority level of the order              |
+| Returned         | VARCHAR(5)       | Return status (Yes/No)                   |
